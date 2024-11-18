@@ -289,12 +289,12 @@ class TLPMX:
 		if sizeof(c_voidp) == 4:
 			dll_name = "TLPMX_32.dll"
 			# dllabspath = os.path.dirname(os.path.abspath(__file__)) + os.path.sep + dll_name
-			dllabspath = "C:\Program Files\IVI Foundation\VISA\Win64\Bin\TLPMX_64.dll"
+			dllabspath = "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\TLPMX_64.dll"
 			self.dll = cdll.LoadLibrary(dllabspath)
 		else:
 			dll_name = "TLPMX_64.dll"
 			# dllabspath = os.path.dirname(os.path.abspath(__file__)) + os.path.sep + dll_name
-			dllabspath = "C:\Program Files\IVI Foundation\VISA\Win64\Bin\TLPMX_64.dll"
+			dllabspath = "C:\\Program Files\\IVI Foundation\\VISA\\Win64\\Bin\\TLPMX_64.dll"
 			self.dll = cdll.LoadLibrary(dllabspath)
 
 		self.devSession = c_long()
