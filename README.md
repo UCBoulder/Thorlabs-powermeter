@@ -10,7 +10,7 @@ Go to line 292 & line 297 of TLPMX.py in the repo.
 
 Change the path to where the TLPMX_64.dll file is located on your local computer.
 
-install ctypes
+install ctypes for Python versions before 2.5
 ```
 pip install ctypes
 ```
